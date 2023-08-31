@@ -1,7 +1,7 @@
 //L’utente sceglie pari o dispari e inserisce un numero da 1 a 5. Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione). Sommiamo i due numeri Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione) Dichiariamo chi ha vinto.
 
 
-const selection = prompt('scrivi pari o dispari');
+/* const selection = prompt('scrivi pari o dispari');
 console.log('utente sceglie', selection);
 const userNumber = Number(prompt('inserisci un numero da 1 a 5'));
 
@@ -34,4 +34,25 @@ function isEven(first_number) {
     return 'dispari'    
 }
 const finalResult = isEven(somNumber);
-console.log('vince', finalResult, 'dato che', somNumber, 'è un numero', finalResult);
+console.log('vince', finalResult, 'dato che', somNumber, 'è un numero', finalResult); */
+
+//finish first exercise
+
+//Chiedere all’utente di inserire una parola Creare una funzione per capire se la parola inserita è palindroma
+
+
+const word = prompt('digita una parola');
+
+function palindromaWord() {
+    return word.split('').reverse().join('')
+} 
+console.log(palindromaWord(word))
+
+
+if (word === palindromaWord(word)) {
+    console.log('La parola è palindroma');
+} else {
+    console.log('La parola non è palindroma');
+}
+
+//finish second exercise
